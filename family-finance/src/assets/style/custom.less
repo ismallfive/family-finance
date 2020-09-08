@@ -1,0 +1,45 @@
+@myPrimary: #644edd;
+
+.van-nav-bar .van-icon{
+  color: @myPrimary;
+}
+
+.van-nav-bar__text{
+  color: @myPrimary;
+}
+
+.Router {
+  position: absolute;
+  width: 100%;
+  transition: all 0.5s ease;
+  top: 0;
+}
+
+.slide-left-enter,
+.slide-right-leave-active {
+  opacity: 0;
+  -webkit-transform: translate(100%, 0);
+  transform: translate(100%, 0);
+}
+
+.slide-left-leave-active,
+.slide-right-enter {
+  opacity: 0;
+  -webkit-transform: translate(-100%, 0);
+  transform: translate(-100% 0);
+}
+
+.van-tabbar-item--active {
+  .van-tabbar-item__icon {
+    .van-icon {
+      font-weight: 700;
+    }
+  }
+  .van-tabbar-item__text{
+    font-weight: 700;
+  }
+}
+
+.margin-top-10px{
+  margin-top: 10px;
+}
