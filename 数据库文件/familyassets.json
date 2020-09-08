@@ -1,0 +1,50 @@
+{
+    "RECORDS": [
+        {
+            "__v": {
+                "$numberInt": "2"
+            },
+            "_id": {
+                "$oid": "5f00b1b4ae37516260778cf8"
+            },
+            "amount": {
+                "$numberInt": "2931"
+            },
+            "bill": [
+                {
+                    "_id": {
+                        "$oid": "5f00b4ace823b46640b7992e"
+                    },
+                    "date": "2020年07月01日",
+                    "item": [
+                        {
+                            "_id": {
+                                "$oid": "5f00b4ace823b46640b7992f"
+                            },
+                            "uname": "xiaowu",
+                            "beizhu": "家庭初始资产",
+                            "spending": "3000"
+                        }
+                    ]
+                },
+                {
+                    "_id": {
+                        "$oid": "5f00b59ae823b46640b79933"
+                    },
+                    "date": "2020年07月02日",
+                    "item": [
+                        {
+                            "_id": {
+                                "$oid": "5f00b59ae823b46640b79934"
+                            },
+                            "uname": "xiaowus",
+                            "beizhu": "买零食",
+                            "spending": "-69"
+                        }
+                    ]
+                }
+            ],
+            "familyID": "5yt1593881012687"
+        }
+    ]
+}

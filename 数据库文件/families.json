@@ -1,0 +1,29 @@
+{
+    "RECORDS": [
+        {
+            "__v": {
+                "$numberInt": "2"
+            },
+            "_id": {
+                "$oid": "5f00b1b4ae37516260778cf6"
+            },
+            "creator": "xiaowu",
+            "familyID": "5yt1593881012687",
+            "familyName": "相亲相爱一家人",
+            "members": [
+                {
+                    "_id": {
+                        "$oid": "5f00b1b4ae37516260778cf7"
+                    },
+                    "uname": "xiaowu"
+                },
+                {
+                    "_id": {
+                        "$oid": "5f00b55ee823b46640b79932"
+                    },
+                    "uname": "xiaowus"
+                }
+            ]
+        }
+    ]
+}

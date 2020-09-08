@@ -1,0 +1,61 @@
+{
+    "RECORDS": [
+        {
+            "__v": {
+                "$numberInt": "2"
+            },
+            "_id": {
+                "$oid": "5f00b16aae37516260778cf5"
+            },
+            "amount": {
+                "$numberInt": "62"
+            },
+            "bill": [
+                {
+                    "_id": {
+                        "$oid": "5f00b400e823b46640b7992a"
+                    },
+                    "date": "2020年07月04日",
+                    "item": [
+                        {
+                            "_id": {
+                                "$oid": "5f00b400e823b46640b7992b"
+                            },
+                            "beizhu": "买菜",
+                            "spending": "-58"
+                        }
+                    ]
+                },
+                {
+                    "_id": {
+                        "$oid": "5f00b460e823b46640b7992c"
+                    },
+                    "date": "2020年07月03日",
+                    "item": [
+                        {
+                            "_id": {
+                                "$oid": "5f00b460e823b46640b7992d"
+                            },
+                            "beizhu": "兼职工资",
+                            "spending": "120"
+                        }
+                    ]
+                }
+            ],
+            "uname": "xiaowu"
+        },
+        {
+            "__v": {
+                "$numberInt": "0"
+            },
+            "_id": {
+                "$oid": "5f00b513e823b46640b79931"
+            },
+            "amount": {
+                "$numberInt": "0"
+            },
+            "bill": [],
+            "uname": "xiaowus"
+        }
+    ]
+}
